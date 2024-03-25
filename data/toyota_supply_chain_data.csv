@@ -1,0 +1,201 @@
+Supplier ID,Part ID,Supplier Name,Location,Delivery Times,Contact Info
+SP0001,P00973,Snyder LLC,Lake Kenneth,5 days,250.807.6837x08080
+SP0002,P00280,Gill-Mathews,Lake Kyle,11 days,248-938-1270x3129
+SP0003,P00472,"Glass, Fields and Hernandez",Port Derrickberg,2 days,444-894-1601x503
+SP0004,P00788,Wilson-Tran,Melissafurt,10 days,369.234.3891
+SP0005,P01000,Allen-Vaughn,Larryland,11 days,+1-296-747-1625x138
+SP0006,P00077,Ryan-Myers,Port Nathanstad,9 days,614-686-1311
+SP0007,P00462,Colon PLC,North Sarah,7 days,001-957-253-2700x3279
+SP0008,P00558,"Stewart, Brown and Kerr",South Kimberly,11 days,+1-764-283-2898x8461
+SP0009,P00619,Gibson Ltd,Ashleystad,11 days,665.355.3233x414
+SP0010,P00654,Russell PLC,West Jessicatown,13 days,272.563.5119
+SP0011,P00967,Porter-Andrade,Angelahaven,8 days,622-419-6723x4190
+SP0012,P00646,Norton PLC,East Diane,4 days,(961)694-0073x854
+SP0013,P00657,Kline-Bates,Marychester,2 days,916-662-7329x1339
+SP0014,P00900,Ferguson-Estrada,South Lauren,2 days,(316)590-4517x48269
+SP0015,P00406,Wong-Jackson,Lake Jeffreybury,9 days,5743049926
+SP0016,P00404,Boone Ltd,Owensville,5 days,459.524.8693
+SP0017,P00938,Pitts-Lopez,West Andrea,6 days,945-676-3686x3277
+SP0018,P00819,"Brown, Williams and Vega",Dustinfurt,4 days,001-476-499-8090
+SP0019,P00175,"Miller, Lewis and Browning",Andreashire,12 days,+1-328-809-7158
+SP0020,P00186,Franklin-Smith,Stanleyport,1 days,001-726-256-7642
+SP0021,P00741,Rodriguez-Delacruz,Belltown,9 days,447.821.6149
+SP0022,P00249,"West, Harrison and Miller",Johnsonfort,10 days,+1-778-644-2618x086
+SP0023,P00964,Harris-Carr,Port Matthewland,4 days,(276)232-2008x70539
+SP0024,P00614,Johnson Ltd,Youngmouth,4 days,340-873-6668
+SP0025,P00167,Tucker-Rodriguez,Johnnyfort,8 days,+1-637-520-3780x988
+SP0026,P00756,"Ray, Carpenter and Hunter",Herbertland,1 days,+1-836-826-1793
+SP0027,P00568,Thomas Inc,East Tanya,4 days,(257)630-8287
+SP0028,P00083,Rodriguez Group,Keithside,1 days,001-259-919-2642x1644
+SP0029,P00644,Morris Group,Port Jeffrey,14 days,(512)399-2270x868
+SP0030,P00539,Quinn-Paul,Lake William,14 days,358.497.8431
+SP0031,P00410,Lopez Inc,New Dennis,5 days,(230)402-4709
+SP0032,P00685,Spence and Sons,North Sarahfort,2 days,8796639407
+SP0033,P00416,Harris LLC,East Richardview,7 days,001-501-356-1208x123
+SP0034,P00321,"Olson, Davis and Miller",East Sean,6 days,+1-485-571-8143x22940
+SP0035,P00961,Reese Inc,Marktown,4 days,336.451.8221x3401
+SP0036,P00661,Li-Harrell,West Michealside,2 days,(779)441-7458x93780
+SP0037,P00072,"Larsen, Mccormick and Jones",New Pamelaland,5 days,438.779.7713
+SP0038,P00047,"Morgan, Larson and Marquez",Sanchezview,7 days,857.761.7740x494
+SP0039,P00102,"Carroll, Shields and Conway",Lake James,2 days,(518)711-9733
+SP0040,P00328,Adams PLC,Gardnermouth,1 days,233-394-7145x7027
+SP0041,P00552,Griffin Group,Lake William,10 days,6656369017
+SP0042,P00111,Perkins LLC,Ronnieburgh,10 days,923.879.4512x0573
+SP0043,P00740,Adams Ltd,West Jamieside,2 days,981.346.7793x447
+SP0044,P00127,Day-Walker,Bobbyside,11 days,(511)877-3177
+SP0045,P00564,Rivera PLC,North Erik,3 days,2612768761
+SP0046,P00608,"Hansen, Marshall and Robinson",West William,13 days,001-294-945-8206x692
+SP0047,P00373,"Ryan, Williams and Hunter",West Dorisshire,5 days,813.872.4545
+SP0048,P00353,Krause LLC,East Natalieport,11 days,(683)322-6053x6951
+SP0049,P00437,Hernandez-Parks,Cherryfurt,12 days,(982)214-8570x696
+SP0050,P00061,"Kelley, Hall and Taylor",North Amyfurt,2 days,807-809-2180x13551
+SP0051,P00951,Mitchell-Lee,North Trevorport,11 days,9458167504
+SP0052,P00947,"Rodriguez, Andrews and Rodriguez",East Veronicaburgh,11 days,(664)410-0866x4133
+SP0053,P00481,Brown Group,Port Nicholaston,12 days,690-390-5432
+SP0054,P00690,"Griffin, Washington and Warner",Brownland,3 days,+1-794-976-5188x26900
+SP0055,P00440,Bailey Inc,Allenbury,2 days,643.665.1371x223
+SP0056,P00401,"Evans, Warner and Mills",Smithtown,7 days,991-304-8568
+SP0057,P00199,Thomas-Harris,Gregorychester,8 days,+1-285-217-3235x179
+SP0058,P00811,"Cuevas, Morales and Hutchinson",West Marystad,12 days,+1-724-988-0618x44409
+SP0059,P00504,Thompson-Martin,Rhondaside,3 days,917.515.6025x7097
+SP0060,P00421,"Watson, Arellano and Horn",Normanshire,4 days,001-969-651-6020
+SP0061,P00365,Lee Ltd,West Janeborough,11 days,415-475-5587
+SP0062,P00073,Swanson Inc,North Ryan,3 days,(539)819-3580x4458
+SP0063,P00369,Miller-Jackson,Longhaven,4 days,+1-418-623-4032x052
+SP0064,P00873,Morrow and Sons,Greentown,12 days,001-429-796-1479x3305
+SP0065,P00166,Thomas Inc,Port Bobbytown,12 days,001-742-812-3887
+SP0066,P00840,Smith Group,Cunninghamfort,7 days,+1-702-608-5370x31945
+SP0067,P00922,Haley-Good,Kimberlytown,9 days,+1-975-439-3890x2880
+SP0068,P00242,Morton-Murphy,Murillostad,2 days,+1-642-212-7108
+SP0069,P00688,Hicks-Ruiz,Wattsville,8 days,576-617-0609x8070
+SP0070,P00242,Williams PLC,Litown,2 days,401-622-9039
+SP0071,P00246,Torres Group,West Jessica,9 days,525.328.1883x715
+SP0072,P00275,Casey PLC,Christopherview,4 days,(531)650-7262x273
+SP0073,P00513,Fox-Campbell,Lake Jameston,9 days,407-502-7050x20775
+SP0074,P00264,Garcia-Small,Lopezstad,2 days,959-940-1624x3201
+SP0075,P00489,Hall Group,West Tonya,12 days,6265135305
+SP0076,P00498,"Martin, Kirk and Gonzalez",Lake Brian,3 days,001-759-768-3510x660
+SP0077,P00600,Richardson-Garcia,Huertamouth,10 days,001-262-787-9712
+SP0078,P00598,"Griffin, Johnson and Banks",Longtown,13 days,+1-675-755-6930x74367
+SP0079,P00983,Wolfe PLC,Youngberg,8 days,593.685.2564x24339
+SP0080,P00435,"Marshall, Cline and Mann",Port Karen,9 days,+1-203-507-1062x164
+SP0081,P00011,Flores-Silva,South Michael,5 days,(372)812-3146
+SP0082,P00810,White-Decker,Robertmouth,3 days,226.425.8625x8372
+SP0083,P00231,Rose-Mcclain,East Erinbury,1 days,809.780.5096x988
+SP0084,P00655,Gillespie-Gallegos,Port Charleschester,13 days,001-237-909-7968
+SP0085,P00884,Guzman-Chavez,Daltonport,10 days,+1-943-912-9624x98346
+SP0086,P00577,Hunter Group,Robertsberg,7 days,(740)905-8986x089
+SP0087,P00620,"Steele, Summers and Jackson",New Mariaberg,2 days,571-264-3553
+SP0088,P00950,Byrd-Yates,Adkinsfurt,14 days,6573800218
+SP0089,P00118,Kelly-Lawson,Lake Phyllis,9 days,763.982.5663
+SP0090,P00871,Randall-Herman,Kevinmouth,1 days,001-922-845-2227
+SP0091,P00885,Faulkner LLC,Parkerborough,6 days,938.396.5722x083
+SP0092,P00037,"Smith, Phillips and Smith",South Evelyn,12 days,+1-426-582-3774x07805
+SP0093,P00002,Boyd and Sons,Sullivanton,7 days,(878)455-8909
+SP0094,P00124,Moss PLC,Port Jefferyfort,13 days,9116339899
+SP0095,P00171,"Castro, Martinez and Schmidt",Meyerhaven,8 days,864.867.0108x85574
+SP0096,P00439,Meza-Villanueva,East Joshua,2 days,(881)589-6715x9770
+SP0097,P00734,Schmidt and Sons,New Willieberg,5 days,524-991-4545x95589
+SP0098,P00884,Jones-Butler,New Brandonfurt,3 days,(293)365-0991x654
+SP0099,P00705,Hughes Ltd,South Christopher,14 days,(276)246-1306x300
+SP0100,P00643,Gray-Ray,North Malikstad,7 days,481.701.9941x540
+SP0101,P00170,Brown-Fletcher,North Heather,2 days,6593405004
+SP0102,P00647,Hunt-Acosta,Perrychester,6 days,756-775-4633
+SP0103,P00045,Evans-Brown,New Stevenville,14 days,318-508-4093x223
+SP0104,P00303,"Harvey, Rojas and Silva",South Robert,10 days,477-648-6444x226
+SP0105,P00152,Werner-Allen,Smithville,8 days,3803162578
+SP0106,P00592,Moore-Miller,Nguyenfort,6 days,696.656.8151x320
+SP0107,P00807,Davis-Anderson,Suzanneland,12 days,785.480.5455x8718
+SP0108,P00039,Archer Ltd,Lake Vanessa,5 days,538-996-1039x213
+SP0109,P00856,Rodriguez LLC,Boyleville,8 days,+1-625-569-8910x41579
+SP0110,P00997,"Mckay, Garcia and Thomas",East Sandra,9 days,001-674-897-6372x895
+SP0111,P00044,Bennett and Sons,West Crystal,14 days,001-396-800-3740x6028
+SP0112,P00283,Garza Inc,Lake Cynthiafort,5 days,001-915-661-2760
+SP0113,P00296,"Powers, Anderson and Leonard",Sandrahaven,8 days,(926)846-1748x77537
+SP0114,P00520,Maldonado LLC,North Crystalburgh,9 days,885-511-9605
+SP0115,P00410,Morse and Sons,East Emily,1 days,(959)825-8688x7864
+SP0116,P00293,"Garcia, Pierce and Graham",Lake Monicahaven,9 days,764-290-5615
+SP0117,P00976,Gonzalez-Davidson,Shahville,13 days,7554115469
+SP0118,P00752,"Ross, Henry and Harris",East Kellyhaven,5 days,(985)858-5902x4283
+SP0119,P00943,Friedman-Guerra,Port Antoniostad,3 days,(724)254-1297
+SP0120,P00724,Brewer LLC,East Amy,9 days,417-321-5811x81387
+SP0121,P00797,Lewis-Wang,Port Nancy,5 days,+1-238-342-1402x64641
+SP0122,P00060,"Ward, Miller and Sampson",Lake Sarahbury,9 days,+1-757-503-0328x95500
+SP0123,P00101,"Barker, Hunt and Villarreal",Lake Christymouth,13 days,(581)598-9859x7497
+SP0124,P00324,Murray-Hardin,North Amber,5 days,751-819-4024x58987
+SP0125,P00027,Vazquez-White,Johnfurt,2 days,348-894-8631x284
+SP0126,P00158,Anderson-Rogers,New Garyview,7 days,421.864.2923x3687
+SP0127,P00186,Barry-Good,Lake Evan,11 days,+1-805-704-3552
+SP0128,P00929,Robinson-Craig,Port Randallview,2 days,+1-216-439-7680
+SP0129,P00537,Martin LLC,Stevenmouth,6 days,+1-970-866-1157x063
+SP0130,P00816,Warren PLC,Johnmouth,2 days,+1-786-748-5202x3515
+SP0131,P00700,Payne PLC,North Stephen,7 days,001-589-510-8644x697
+SP0132,P00299,"Simpson, Moore and Oliver",Cassandraberg,2 days,001-599-284-4027x8383
+SP0133,P00484,Casey LLC,Hillbury,3 days,001-509-346-3101x253
+SP0134,P00265,"Rangel, Miller and Griffith",Lisaburgh,12 days,(649)832-0638
+SP0135,P00020,Smith-Miller,South Williamburgh,7 days,001-339-686-9274
+SP0136,P00943,"Pierce, Fox and Thompson",Port Davidfort,7 days,562.294.3248x929
+SP0137,P00002,Henderson-Martin,Lake Robertburgh,6 days,(891)409-7632x6466
+SP0138,P00068,Yu-Greene,Toddberg,7 days,447.494.0219
+SP0139,P00015,Palmer Ltd,Luisfort,12 days,001-816-453-9037
+SP0140,P00073,Moore and Sons,Nguyenstad,7 days,292.456.3372x61920
+SP0141,P00288,Phillips-Ramirez,New Katherine,8 days,832.278.2736x53483
+SP0142,P00970,"Richardson, Glover and Bennett",Lake Richard,8 days,(878)218-3608
+SP0143,P00813,Rangel Group,Dixonmouth,1 days,217-829-6175
+SP0144,P00398,"Johnson, Hardy and Bishop",Maryhaven,14 days,861.710.1307
+SP0145,P00026,Jones-Stafford,Scottfort,7 days,001-896-625-5512x8442
+SP0146,P00323,Nelson-Hubbard,North Jessica,11 days,4087947496
+SP0147,P00179,Mendez and Sons,Dannyport,11 days,633-840-7308
+SP0148,P00046,Lee Group,Lisaborough,7 days,+1-856-363-2218x0517
+SP0149,P00491,Salazar LLC,Clarktown,8 days,(737)615-2236x90273
+SP0150,P00744,Hernandez Inc,Port Crystal,7 days,001-211-896-7044
+SP0151,P00620,Adams-Brown,Port Sarah,9 days,+1-448-778-8146x46453
+SP0152,P00125,Thomas-Ortiz,Laraville,6 days,837.565.4539
+SP0153,P00658,"Baldwin, Walters and Vargas",Lake Sandy,6 days,(864)504-6666
+SP0154,P00774,"Stewart, Martin and Turner",Ginachester,4 days,823-787-8258
+SP0155,P00253,Robinson LLC,Smithtown,12 days,(532)353-1012x552
+SP0156,P00986,Thompson-Gonzalez,East Mark,4 days,960.476.5183x88350
+SP0157,P00721,"Jensen, Kerr and Dawson",Maryview,6 days,2634974927
+SP0158,P00847,Cooper LLC,Kimberlyborough,7 days,+1-572-726-0811x7789
+SP0159,P00594,Cox-Macdonald,Durhamburgh,1 days,948-564-6904x9560
+SP0160,P00948,Salas-Shelton,East Michael,9 days,+1-618-224-9112x38037
+SP0161,P00090,Rose-Padilla,Jerryhaven,11 days,8717370922
+SP0162,P00924,Taylor-Clark,Port Stacyport,13 days,(400)961-8671x41897
+SP0163,P00535,Ruiz-Jackson,South Morgan,4 days,+1-983-534-8802x792
+SP0164,P00746,Daniels-Hall,Port Bernard,11 days,(800)652-3474
+SP0165,P00390,"Combs, Vincent and Castro",Gabrielaside,2 days,+1-607-917-1811x3874
+SP0166,P00286,Welch-Green,South Lori,9 days,(390)559-3384x3117
+SP0167,P00404,Carter-Scott,Roblesside,10 days,(374)393-6756x963
+SP0168,P00911,Logan and Sons,Port John,12 days,(553)540-6469
+SP0169,P00888,"Gibson, Miller and Cruz",South Kyleton,11 days,659-205-1405x444
+SP0170,P00510,"Woods, Hampton and Dixon",South Jeremyton,3 days,4157065179
+SP0171,P00971,"Allison, Ferguson and Michael",New Matthew,5 days,998-382-4500x177
+SP0172,P00216,Mueller-Davila,Munozburgh,5 days,+1-451-673-6350x819
+SP0173,P00290,Callahan-Liu,South Michellestad,13 days,573-779-3868x92694
+SP0174,P00047,"Reyes, Clark and Torres",West Haileyhaven,2 days,704-889-2124x799
+SP0175,P00208,Shaw LLC,Port Brianhaven,13 days,(785)745-9366x2691
+SP0176,P00277,"Whitaker, Leon and Anthony",Hodgemouth,7 days,001-418-678-0990x35648
+SP0177,P00154,Harper-Miller,West Susanland,2 days,268.592.0234
+SP0178,P00542,"Martin, Espinoza and Harper",Port Heather,10 days,490.387.6237x111
+SP0179,P00096,"Carlson, Schneider and Rogers",Robinport,7 days,+1-212-733-1229x497
+SP0180,P00499,Wiggins-Ellis,Kimberlyton,6 days,(690)635-3605
+SP0181,P00764,Johnson-Larson,Deborahport,14 days,(451)812-5941
+SP0182,P00541,Lawrence Group,West Johnville,13 days,201.664.6468
+SP0183,P00625,Estrada Ltd,Lake Jenniferland,4 days,+1-943-394-3201x70396
+SP0184,P00789,Mueller-Robinson,West Jeanshire,5 days,(534)786-4320
+SP0185,P00910,Davis-Smith,Kimberlyshire,2 days,685-997-7975x1702
+SP0186,P00790,"Warren, Brooks and Lyons",Mooremouth,3 days,482.486.5001x973
+SP0187,P00145,Walters-Franklin,West Stephanieborough,12 days,(658)696-9602
+SP0188,P00529,Jarvis and Sons,Port Christopher,9 days,+1-724-310-8776x423
+SP0189,P00480,Hernandez-Fields,Mcmahonchester,9 days,+1-989-271-6212
+SP0190,P00968,Estrada-Cooley,West Alexaview,14 days,(272)393-8972x491
+SP0191,P00986,Pitts and Sons,Lake Marissa,2 days,750.920.4810x956
+SP0192,P00366,Smith PLC,Seantown,6 days,256.322.2670
+SP0193,P00230,Glenn LLC,Washingtonberg,2 days,(293)317-6671x8572
+SP0194,P00930,Beck-Webster,West Meganview,2 days,(928)269-7225
+SP0195,P00923,"Smith, Spencer and Garcia",Heatherborough,7 days,2028926513
+SP0196,P00298,Johnson Inc,New Shawntown,12 days,671-900-7838x168
+SP0197,P00763,Little PLC,Port Williamton,14 days,001-668-320-0003x12567
+SP0198,P00401,"Walton, Franklin and Marshall",Torreston,14 days,713-696-7357x807
+SP0199,P00611,Morris Ltd,New Teresamouth,8 days,001-512-542-5051x35429
+SP0200,P00503,Lewis-Johnson,North Stephanieville,7 days,5207506488

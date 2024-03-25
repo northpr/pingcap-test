@@ -1,0 +1,9 @@
+jupyterlab
+matplotlib
+numpy
+nbdev < 2
+pandas
+plotly
+scikit-learn
+seaborn
+faker
