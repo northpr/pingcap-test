@@ -1,51 +1,51 @@
-Dealership ID,Name,Location,Contact Number,Email,Manager ID
-D001,Young-Walker Toyota,North Claudia,3125275892,williamsandre@example.net,S0553
-D002,"Bradshaw, Cummings and English Toyota",Lake Justin,582.808.1451x54536,james77@example.com,S0771
-D003,Clark-Wright Toyota,Kiddshire,001-385-597-9859,lromero@example.com,S0421
-D004,Huber PLC Toyota,Kennethfurt,554-985-6011x6213,matthewtaylor@example.net,S0428
-D005,"Moore, Taylor and Baker Toyota",Rachelburgh,(488)893-5019,torreskimberly@example.org,S0746
-D006,Wilson-Thompson Toyota,Hartmantown,7925590357,edavis@example.org,S0347
-D007,Grant-Johnson Toyota,Fitzpatricktown,+1-619-394-5625x7658,vmartinez@example.net,S0369
-D008,"Smith, Brown and Roberts Toyota",Lake Robert,001-876-227-8054x0177,johnsontimothy@example.com,S0189
-D009,Hood Group Toyota,South Michellechester,279.641.6735x701,michaelroberts@example.com,S0851
-D010,Miller Group Toyota,Port Thomas,993-369-4073x44996,eddie07@example.org,S0776
-D011,Bradshaw-Price Toyota,Montesstad,363-967-4309,lynn20@example.com,S0300
-D012,"Clark, Gross and Gibson Toyota",Samanthahaven,(861)340-5868x66053,xmeadows@example.org,S0759
-D013,"Rangel, Jimenez and Anderson Toyota",East Rebeccaville,4337962625,zharris@example.org,S0843
-D014,Rogers and Sons Toyota,Lake Tanya,001-769-224-8425x991,amanda91@example.com,S0969
-D015,Barrett Inc Toyota,West Racheltown,(859)912-0022,wilsonpamela@example.com,S0638
-D016,Brown-Simpson Toyota,Chelseaside,8652955860,mirandayang@example.org,S0029
-D017,"Lin, Henderson and Sanchez Toyota",Lake Tyler,638.247.6653,sancheztimothy@example.org,S0903
-D018,"Mason, Mitchell and Moore Toyota",North Christopher,001-322-834-5437x817,connie92@example.org,S0097
-D019,Thomas-Davis Toyota,South Rachel,+1-334-649-1426x0337,megan79@example.net,S0486
-D020,Harvey-Salazar Toyota,Krystalton,463-992-4656,butlerlawrence@example.net,S0524
-D021,Foster Inc Toyota,Port Melodyhaven,001-602-411-0171x364,andrewselaine@example.com,S0101
-D022,Flores PLC Toyota,Lake Anthonyland,001-456-929-9903x5834,wardcarol@example.com,S0506
-D023,Pearson Group Toyota,Lake Karen,(643)673-7964,betty78@example.net,S0713
-D024,Gibson Group Toyota,Michaeltown,341-631-9623x5641,tyler54@example.com,S0198
-D025,Carlson Group Toyota,Cassandrafort,281.702.0106x943,davistimothy@example.com,S0087
-D026,"Mercado, Perkins and Howard Toyota",South Mikaylaville,895.675.8852x95737,johnnysalazar@example.net,S0190
-D027,Wallace Ltd Toyota,East Kellyborough,575-611-7141,sbanks@example.net,S0970
-D028,"Shaw, Cruz and Huff Toyota",Carrchester,(811)711-9619x765,omorris@example.com,S0603
-D029,Freeman-Griffith Toyota,Danielsville,694-226-4816x600,tmartinez@example.net,S0554
-D030,Roberts PLC Toyota,Port Marychester,281-400-9412x822,gdyer@example.org,S0685
-D031,"Nelson, Turner and Ross Toyota",West Tamara,9202452422,brandon32@example.com,S0307
-D032,Malone-Schmidt Toyota,North Nicoleberg,001-288-428-2872x09536,rgraves@example.com,S0246
-D033,Leon-Hicks Toyota,Timothyshire,(823)903-6099,markwood@example.net,S0366
-D034,Brown-Holt Toyota,New Jenniferfort,+1-849-937-4748x4167,fisherpatricia@example.com,S0497
-D035,Rodriguez-Brown Toyota,Henryville,(319)882-2053x29497,zgonzalez@example.com,S0743
-D036,"Gamble, Bell and Bauer Toyota",Osbornchester,001-564-616-7264x397,ymann@example.org,S0009
-D037,"Bryant, Adams and King Toyota",New Andreaton,(709)593-7512x114,stravis@example.com,S0711
-D038,Fields-Wilson Toyota,Robersonmouth,610-490-4321,marciaduffy@example.net,S0529
-D039,Park-Harrell Toyota,South Hannah,8916179666,wgould@example.org,S0370
-D040,Burgess-Taylor Toyota,East Jason,(337)826-9170x957,joshua72@example.net,S0114
-D041,Duncan-Navarro Toyota,Jenniferburgh,374.967.0125x9635,curryjames@example.org,S0772
-D042,Myers Inc Toyota,Lake Charlesbury,001-425-387-5041x99207,monica12@example.org,S0730
-D043,"Dalton, Ruiz and Lambert Toyota",Pattersonshire,+1-965-340-9675,patricia12@example.org,S0794
-D044,"Love, Larson and Franklin Toyota",Rodneymouth,541-562-0379,tylerflores@example.com,S0676
-D045,Bradley Ltd Toyota,Oconnorview,001-785-491-2099,william30@example.org,S0691
-D046,Benjamin PLC Toyota,New Tracy,001-891-291-4605x76122,bryan70@example.org,S0659
-D047,Alvarez-Torres Toyota,North Curtis,(879)795-6776,matthewwilliams@example.org,S0272
-D048,Martinez PLC Toyota,Lake Amyview,001-749-375-7072x6558,yreyes@example.net,S0471
-D049,"Mclaughlin, Robles and Hensley Toyota",Lake Michael,(969)684-7983x21948,stephanie15@example.org,S0477
-D050,"Mcgee, Ramsey and Gallegos Toyota",West Patrick,(683)413-5559,rogersseth@example.net,S0359
+dealership_id,name,location,contact_number,email,manager_id
+D001,"Nguyen, Powell and Rodriguez Toyota",West Curtisberg,+1-446-210-7337x199,brad91@example.net,S0276
+D002,Gibbs-Ortiz Toyota,North Danielleport,+1-802-813-2555x4099,grossanthony@example.com,S0812
+D003,"Luna, Smith and Andrade Toyota",Jesusfurt,860.382.0125x1463,tony46@example.com,S0525
+D004,Buck LLC Toyota,Jessicastad,001-575-706-1860x6168,jramos@example.com,S0444
+D005,Lester and Sons Toyota,Stevenview,839.891.1356x8460,estradawayne@example.net,S0377
+D006,Lamb-Klein Toyota,Kevinhaven,795.883.7590x08468,wowens@example.net,S0979
+D007,Rodriguez-Price Toyota,Danielmouth,226-885-8609,wolfkyle@example.net,S0170
+D008,Arnold Group Toyota,Briggsview,+1-413-877-3204,lopezvictoria@example.org,S0613
+D009,"Vega, Shannon and Jones Toyota",Jasonshire,831-619-3186x6554,sarah93@example.com,S0924
+D010,"Macdonald, Nguyen and Williams Toyota",North Julie,+1-414-582-4679x3295,anthonyrichardson@example.com,S0436
+D011,Norris-Parker Toyota,Blanchardbury,001-646-930-9556x421,garcialinda@example.com,S0732
+D012,Walsh-Mcintyre Toyota,Karenborough,+1-854-540-8114x841,tinataylor@example.com,S0952
+D013,Brown-Hall Toyota,Samuelmouth,+1-433-788-0473,curtiscole@example.net,S0505
+D014,Williams Group Toyota,New Bryan,502-305-4634,stephaniegibson@example.net,S0620
+D015,Lopez and Sons Toyota,Nelsonton,411-416-5835x0118,david44@example.net,S0786
+D016,Brown Inc Toyota,West Virginiaside,(216)688-9473x71359,brenda58@example.org,S0990
+D017,"Olson, Mayer and Brown Toyota",Vincentville,474.662.4087,benjamin42@example.org,S0908
+D018,Armstrong-Lopez Toyota,North Gregoryport,+1-372-680-0450x199,smartin@example.org,S0190
+D019,Stafford-Davis Toyota,East Karenstad,+1-798-242-2427x9671,jacobsonjessica@example.com,S0041
+D020,Thompson-Aguirre Toyota,Blackport,+1-410-797-9176x0743,michaelrosales@example.net,S0106
+D021,Martin-Brock Toyota,South Nancyton,(403)827-1322,haydencruz@example.net,S0392
+D022,Acevedo Ltd Toyota,South Danieltown,+1-943-753-4332x40935,sydneyanderson@example.com,S0128
+D023,Weeks-Zimmerman Toyota,East Tinaland,670.344.5213x5360,wallacelori@example.com,S0480
+D024,"Williams, Underwood and Jones Toyota",Peggymouth,809.423.2416x4618,joshua97@example.org,S0359
+D025,Jackson-Bailey Toyota,West Taylorview,706-701-4461,sararichmond@example.net,S0675
+D026,Moore-Ford Toyota,Port Michaelbury,411-384-0647,esandoval@example.com,S0138
+D027,Blankenship LLC Toyota,Davidland,936.821.0708x214,nrose@example.net,S0410
+D028,Gilbert Inc Toyota,Port Beverlyborough,2155156886,hernandezsamuel@example.com,S0880
+D029,Smith-Riddle Toyota,Martinside,+1-324-973-8560x560,ellisdarren@example.net,S0669
+D030,Hall Ltd Toyota,Justinport,+1-753-592-3419x29009,michaelwilliamson@example.com,S0898
+D031,Oliver-Thompson Toyota,East Thomas,(846)282-4145,hardingjose@example.org,S0256
+D032,Weber PLC Toyota,Toddland,+1-488-528-0284x67619,asweeney@example.org,S0129
+D033,"Nguyen, Melendez and Neal Toyota",East Dennischester,341-522-2472,gbaker@example.net,S0464
+D034,Murphy and Sons Toyota,New Joseph,5959146781,bonillajames@example.com,S0686
+D035,Holmes-Coffey Toyota,Floresshire,(519)938-4239,vturner@example.net,S0578
+D036,Turner-Williams Toyota,South Danielfort,6147306772,timothymorrow@example.com,S0562
+D037,Peck-Gonzalez Toyota,Port Margaret,928.917.4233,brianwong@example.org,S0701
+D038,"Clay, Sheppard and Thompson Toyota",Castilloborough,+1-735-287-2049x230,norman06@example.org,S0041
+D039,Garcia-Holt Toyota,West Kristen,5233273935,richard60@example.com,S0326
+D040,Fields-Craig Toyota,Port Betty,559-291-8122x99439,todd03@example.org,S0446
+D041,Kelley Ltd Toyota,Port Marcus,801.911.8466,courtneyroberson@example.com,S0870
+D042,Smith-Jacobs Toyota,Terrimouth,+1-861-842-3638,tara27@example.net,S0331
+D043,"Jones, Prince and Smith Toyota",Port Julianshire,322-718-3160,reevesdonald@example.net,S0260
+D044,Dominguez-Brandt Toyota,North Sarah,674-575-9672,villanuevajanice@example.org,S0980
+D045,Brown LLC Toyota,Garzafurt,469.288.5265,daniellevelez@example.com,S0508
+D046,Downs LLC Toyota,Wallacemouth,(519)403-7746x546,alicia12@example.org,S0199
+D047,"Hardin, Mosley and Owens Toyota",Adkinsmouth,943.989.7126,gtucker@example.com,S0981
+D048,Mccall-Shaw Toyota,Port Melinda,+1-730-273-3939x23724,donalddixon@example.net,S0633
+D049,Chung LLC Toyota,East Nathan,(721)500-9527x741,crichards@example.net,S0384
+D050,Smith-Gates Toyota,Hamiltonton,(882)428-2161x71753,harriseugene@example.net,S0377
