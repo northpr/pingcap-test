@@ -3,16 +3,28 @@ import time
 from tidb_connect import Chat2QueryAPI, print_pretty_result
 import random
 import pandas as pd
+import configparser
+
+config = configparser.ConfigParser()
+config.read('config.ini')
+
+public_key = config['API_Configuration']['public_key']
+private_key = config['API_Configuration']['private_key']
+region = config['API_Configuration']['region']
+app_id = config['API_Configuration']['app_id']
+cluster_id = config['API_Configuration']['cluster_id']
+database = config['API_Configuration']['database']
+
 ## https://docs.streamlit.io/knowledge-base/tutorials/build-conversational-apps
 
 with st.sidebar:
     st.title("API Configuration")
-    public_key = st.text_input("Public Key", value='414VD1N0')
-    private_key = st.text_input("Private Key", value='aefec559-36eb-4cd1-b6c3-59fa74303d41', type="password")
+    public_key = st.text_input("Public Key", value=public_key)
+    private_key = st.text_input("Private Key", value=private_key, type="password")
     region = st.selectbox("Region", options=['ap-southeast-1', 'us-west-2'], index=0)
-    app_id = st.text_input("App ID", value='WizQVcwy')
-    cluster_id = st.text_input("Cluster ID", value='10954456779882628977')
-    database = st.text_input("Database", value='toyota_test')
+    app_id = st.text_input("App ID", value=app_id)
+    cluster_id = st.text_input("Cluster ID", value=cluster_id)
+    database = st.text_input("Database", value=database)
     init_button = st.button("Initialize API")
 
 if 'api_initialized' not in st.session_state:

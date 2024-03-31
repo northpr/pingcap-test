@@ -10,3 +10,4 @@ faker
 streamlit==1.32.2
 openai==1.14.3
 streamlit-chat=0.1.1
+configparser=6.0.1
