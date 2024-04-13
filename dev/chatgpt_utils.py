@@ -17,7 +17,7 @@ def format_prompt(clarified_task, sql_query, columns, rows):
 def create_summary_message(clarified_task, sql_query, columns, rows):
     client = get_openai_client()
     formatted_prompt = format_prompt(clarified_task, sql_query, columns, rows)
-    system_message = "Analyze dataset to provide key insights, actionable strategies, and brief conclusions."
+    system_message = "Analyze dataset to provide key actions based on the question, and short conclusion."
     
     messages = [
         {'role': 'system', 'content': system_message},
@@ -28,8 +28,8 @@ def create_summary_message(clarified_task, sql_query, columns, rows):
 
 def generate_completion(messages):
     client = get_openai_client()
-    response = client.Completion.create(
+    response = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=messages
     )
-    return response.choices[0].message['content']
+    return response.choices[0].message.content

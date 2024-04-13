@@ -58,29 +58,46 @@ class Chat2QueryAPI:
 
     def get_sql_job_result(self, raw_question, full=False):
         execution_result = self.execute_sql(raw_question)
-        job_id = execution_result.get('result', {}).get('job_id')
 
+        # Check if execution_result is a dictionary and has the expected structure
+        if not isinstance(execution_result, dict) or 'result' not in execution_result:
+            return {"error": "Failed to execute SQL or incorrect response format."}
+
+        job_id = execution_result.get('result', {}).get('job_id')
         if not job_id:
-            return {"error": "Job ID not found in execution result"}
+            return {"error": "Job ID not found in execution result."}
+
         print('Generating Result')
-        time.sleep(10)  # Wait for the job to process
+        time.sleep(10)  # Simulating job processing time
         job_status_result = self.get_job_status(job_id)
+
+        # Check if job_status_result is properly fetched and structured
+        if not isinstance(job_status_result, dict) or 'result' not in job_status_result:
+            return {"error": "Failed to retrieve job status or incorrect status format."}
 
         if full:
             return job_status_result
 
-        # Adjusting the structure to match the provided example
         job_result = job_status_result.get('result', {}).get('result', {})
+        if not isinstance(job_result, dict):
+            return {"error": "Job results format is incorrect or missing."}
+
         task_tree = job_result.get('task_tree', {}).get('0', {})
+        if not isinstance(task_tree, dict):
+            return {"error": "Task tree is missing or not in the expected format."}
+
+        columns = [col['col'] for col in task_tree.get('columns', [])] if 'columns' in task_tree else []
+        rows = task_tree.get('rows', []) if 'rows' in task_tree else []
 
         simplified_result = {
-            'clarified_task': task_tree.get('clarified_task', 'Not specified'),
-            'sql_query': task_tree.get('sql', 'Not specified'),
-            'columns': [col['col'] for col in task_tree.get('columns', [])] if 'columns' in task_tree else [],
-            'rows': task_tree.get('rows', []) if 'rows' in task_tree else []
+            'clarified_task': task_tree.get('clarified_task', 'Task clarification not specified'),
+            'sql_query': task_tree.get('sql', 'SQL query not specified'),
+            'columns': columns,
+            'rows': rows
         }
 
         return simplified_result
+
 
 def print_pretty_result(result):
     for key, value in result.items():
