@@ -1,5 +1,5 @@
 import configparser
-
+import streamlit as st
 class AppUtils:
     def __init__(self, config_file='config.ini'):
         self.config_file = config_file
@@ -55,3 +55,12 @@ class AppUtils:
         
         Go ahead and ask me a question to get started!
         """)
+
+    @staticmethod
+    def initialize_state():
+        if 'api_initialized' not in st.session_state:
+            st.session_state['api_initialized'] = False
+        if 'messages' not in st.session_state:
+            st.session_state['messages'] = [{'role':'assistant', 'content':AppUtils.welcome_msg()}]
+        if 'dataframes' not in st.session_state:
+            st.session_state['dataframes'] = {}

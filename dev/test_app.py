@@ -7,6 +7,7 @@ import pandas as pd
 app_utils = AppUtils()
 config = app_utils.load_config()
 api_settings = app_utils.get_api_settings()
+app_utils.initialize_state()
 
 with st.sidebar:
     st.title("API Configuration")
@@ -16,10 +17,9 @@ with st.sidebar:
     app_id = st.text_input("App ID", value=api_settings['app_id'])
     cluster_id = st.text_input("Cluster ID", value=api_settings['cluster_id'])
     database = st.text_input("Database", value=api_settings['database'])
+    row_display = st.number_input("Number of Rows to Display", min_value=1, value=10, step=1)
     init_button = st.button("Initialize API")
 
-if 'api_initialized' not in st.session_state:
-    st.session_state.api_initialized = False
 
 if init_button or st.session_state.api_initialized:
     st.session_state.api_initialized = True
@@ -47,7 +47,7 @@ if init_button or st.session_state.api_initialized:
             if message['role'] == 'dataframe':
                 # Fetch the dataframe by ID and display it
                 df_id = message['content']
-                st.dataframe(st.session_state.dataframes[df_id], use_container_width=True)
+                st.dataframe(st.session_state.dataframes[df_id].head(row_display), use_container_width=True, hide_index=True)
             else:
                 # Display text messages normally
                 st.markdown(message['content'])
@@ -58,7 +58,7 @@ if init_button or st.session_state.api_initialized:
         
         with st.spinner('Thinking . . .'):
             query_result = api.get_sql_job_result(prompt)
-        # print(query_result)
+        print(f"query_result:\n{(query_result)}")
         
         # Prepare the response based on the query result
         # response_content = ""
@@ -89,6 +89,6 @@ if init_button or st.session_state.api_initialized:
                 elif message['role'] == 'dataframe':
                     # Display the dataframe using its unique ID
                     df_id = message['content']
-                    st.dataframe(st.session_state.dataframes[df_id], use_container_width=True)
+                    st.dataframe(st.session_state.dataframes[df_id].head(row_display), use_container_width=True, hide_index=True)
 else:
     st.info("Please initialize the API using the sidebar settings.")
