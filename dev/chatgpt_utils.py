@@ -10,14 +10,14 @@ def get_openai_client():
     return openai
 
 def format_prompt(clarified_task, sql_query, columns, rows):
-    prompt = f"**Task:** {clarified_task}\n**SQL Query:**\n```\n{sql_query}\n```\n**Data Summary:**\n"
+    prompt = f"**Task:** {clarified_task}\n\n**Data Summary:**\n"
     prompt += "Total Items: {}, Columns: {}\n\n".format(len(rows), ", ".join(columns))
     return prompt
 
 def create_summary_message(clarified_task, sql_query, columns, rows):
     client = get_openai_client()
     formatted_prompt = format_prompt(clarified_task, sql_query, columns, rows)
-    system_message = "Analyze dataset to provide key actions based on the question, and short conclusion."
+    system_message = "You're a friendly senior data analyst who can help you analyze based on a question and dataset to provide precise key action to be taken, anomaly, and short conclusion."
     
     messages = [
         {'role': 'system', 'content': system_message},
@@ -26,10 +26,10 @@ def create_summary_message(clarified_task, sql_query, columns, rows):
     
     return messages
 
-def generate_completion(messages):
+def generate_completion(messages, model_name="gpt-3.5-turbo"):
     client = get_openai_client()
     response = client.chat.completions.create(
-        model="gpt-3.5-turbo",
+        model=model_name,
         messages=messages
     )
     return response.choices[0].message.content

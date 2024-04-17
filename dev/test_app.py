@@ -25,7 +25,7 @@ with st.sidebar:
     # Display Settings Section
     with st.expander("Display Settings"):
         row_display = st.number_input("Number of Rows to Display", min_value=1, value=10, step=1)
-
+        model_name = st.selectbox("Choose a Model", ['gpt-3.5-turbo', 'gpt-4-turbo-preview'], index=0)
     init_button = st.button("Initialize API")
 
 
